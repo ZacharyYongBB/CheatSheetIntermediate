@@ -11,6 +11,11 @@
 		B67ED6DF28F29D0400C2B004 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67ED6DE28F29D0400C2B004 /* ContentView.swift */; };
 		B67ED6E128F29D0600C2B004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B67ED6E028F29D0600C2B004 /* Assets.xcassets */; };
 		B67ED6E428F29D0600C2B004 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B67ED6E328F29D0600C2B004 /* Preview Assets.xcassets */; };
+		B67ED6EB28F29D6C00C2B004 /* LongPressGestureExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67ED6EA28F29D6C00C2B004 /* LongPressGestureExample.swift */; };
+		B67ED6ED28F2A30100C2B004 /* MagnificationGestureExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67ED6EC28F2A30100C2B004 /* MagnificationGestureExample.swift */; };
+		B67ED6EF28F2A74F00C2B004 /* RotationGestureExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67ED6EE28F2A74F00C2B004 /* RotationGestureExample.swift */; };
+		B67ED6F128F2A97000C2B004 /* DragGestureExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67ED6F028F2A97000C2B004 /* DragGestureExample.swift */; };
+		B67ED6F328F2AE8C00C2B004 /* DragGesture2Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67ED6F228F2AE8C00C2B004 /* DragGesture2Example.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		B67ED6DE28F29D0400C2B004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B67ED6E028F29D0600C2B004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B67ED6E328F29D0600C2B004 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B67ED6EA28F29D6C00C2B004 /* LongPressGestureExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureExample.swift; sourceTree = "<group>"; };
+		B67ED6EC28F2A30100C2B004 /* MagnificationGestureExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureExample.swift; sourceTree = "<group>"; };
+		B67ED6EE28F2A74F00C2B004 /* RotationGestureExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureExample.swift; sourceTree = "<group>"; };
+		B67ED6F028F2A97000C2B004 /* DragGestureExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureExample.swift; sourceTree = "<group>"; };
+		B67ED6F228F2AE8C00C2B004 /* DragGesture2Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture2Example.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				B67ED6DC28F29D0400C2B004 /* CheatSheetIntermediateApp.swift */,
 				B67ED6DE28F29D0400C2B004 /* ContentView.swift */,
+				B67ED6EA28F29D6C00C2B004 /* LongPressGestureExample.swift */,
+				B67ED6F028F2A97000C2B004 /* DragGestureExample.swift */,
+				B67ED6EC28F2A30100C2B004 /* MagnificationGestureExample.swift */,
+				B67ED6F228F2AE8C00C2B004 /* DragGesture2Example.swift */,
+				B67ED6EE28F2A74F00C2B004 /* RotationGestureExample.swift */,
 				B67ED6E028F29D0600C2B004 /* Assets.xcassets */,
 				B67ED6E228F29D0600C2B004 /* Preview Content */,
 			);
@@ -137,7 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B67ED6ED28F2A30100C2B004 /* MagnificationGestureExample.swift in Sources */,
+				B67ED6F328F2AE8C00C2B004 /* DragGesture2Example.swift in Sources */,
+				B67ED6EB28F29D6C00C2B004 /* LongPressGestureExample.swift in Sources */,
+				B67ED6EF28F2A74F00C2B004 /* RotationGestureExample.swift in Sources */,
 				B67ED6DF28F29D0400C2B004 /* ContentView.swift in Sources */,
+				B67ED6F128F2A97000C2B004 /* DragGestureExample.swift in Sources */,
 				B67ED6DD28F29D0400C2B004 /* CheatSheetIntermediateApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
