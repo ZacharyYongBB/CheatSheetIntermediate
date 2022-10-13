@@ -16,6 +16,8 @@
 		B67ED6EF28F2A74F00C2B004 /* RotationGestureExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67ED6EE28F2A74F00C2B004 /* RotationGestureExample.swift */; };
 		B67ED6F128F2A97000C2B004 /* DragGestureExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67ED6F028F2A97000C2B004 /* DragGestureExample.swift */; };
 		B67ED6F328F2AE8C00C2B004 /* DragGesture2Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67ED6F228F2AE8C00C2B004 /* DragGesture2Example.swift */; };
+		B67ED6F528F7DCA500C2B004 /* ScrollViewReaderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67ED6F428F7DCA500C2B004 /* ScrollViewReaderExample.swift */; };
+		B67ED6F728F7E36500C2B004 /* GeometryReaderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67ED6F628F7E36500C2B004 /* GeometryReaderExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		B67ED6EE28F2A74F00C2B004 /* RotationGestureExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureExample.swift; sourceTree = "<group>"; };
 		B67ED6F028F2A97000C2B004 /* DragGestureExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureExample.swift; sourceTree = "<group>"; };
 		B67ED6F228F2AE8C00C2B004 /* DragGesture2Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture2Example.swift; sourceTree = "<group>"; };
+		B67ED6F428F7DCA500C2B004 /* ScrollViewReaderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderExample.swift; sourceTree = "<group>"; };
+		B67ED6F628F7E36500C2B004 /* GeometryReaderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				B67ED6EC28F2A30100C2B004 /* MagnificationGestureExample.swift */,
 				B67ED6F228F2AE8C00C2B004 /* DragGesture2Example.swift */,
 				B67ED6EE28F2A74F00C2B004 /* RotationGestureExample.swift */,
+				B67ED6F428F7DCA500C2B004 /* ScrollViewReaderExample.swift */,
+				B67ED6F628F7E36500C2B004 /* GeometryReaderExample.swift */,
 				B67ED6E028F29D0600C2B004 /* Assets.xcassets */,
 				B67ED6E228F29D0600C2B004 /* Preview Content */,
 			);
@@ -153,9 +159,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B67ED6ED28F2A30100C2B004 /* MagnificationGestureExample.swift in Sources */,
+				B67ED6F528F7DCA500C2B004 /* ScrollViewReaderExample.swift in Sources */,
 				B67ED6F328F2AE8C00C2B004 /* DragGesture2Example.swift in Sources */,
 				B67ED6EB28F29D6C00C2B004 /* LongPressGestureExample.swift in Sources */,
 				B67ED6EF28F2A74F00C2B004 /* RotationGestureExample.swift in Sources */,
+				B67ED6F728F7E36500C2B004 /* GeometryReaderExample.swift in Sources */,
 				B67ED6DF28F29D0400C2B004 /* ContentView.swift in Sources */,
 				B67ED6F128F2A97000C2B004 /* DragGestureExample.swift in Sources */,
 				B67ED6DD28F29D0400C2B004 /* CheatSheetIntermediateApp.swift in Sources */,
