@@ -20,6 +20,10 @@
 		B67ED6F728F7E36500C2B004 /* GeometryReaderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67ED6F628F7E36500C2B004 /* GeometryReaderExample.swift */; };
 		B67ED6F928F7FB5A00C2B004 /* MultipleSheetsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67ED6F828F7FB5A00C2B004 /* MultipleSheetsExample.swift */; };
 		B67ED6FB28F91FC700C2B004 /* MaskExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67ED6FA28F91FC700C2B004 /* MaskExample.swift */; };
+		B67ED6FD28F959BA00C2B004 /* SoundsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67ED6FC28F959BA00C2B004 /* SoundsExample.swift */; };
+		B67ED70128F95C8B00C2B004 /* Duck-quack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B67ED6FF28F95C8B00C2B004 /* Duck-quack.mp3 */; };
+		B67ED70228F95C8B00C2B004 /* Cow-moo-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B67ED70028F95C8B00C2B004 /* Cow-moo-sound.mp3 */; };
+		B67ED70428F95F8000C2B004 /* HapticsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67ED70328F95F8000C2B004 /* HapticsExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,10 @@
 		B67ED6F628F7E36500C2B004 /* GeometryReaderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderExample.swift; sourceTree = "<group>"; };
 		B67ED6F828F7FB5A00C2B004 /* MultipleSheetsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsExample.swift; sourceTree = "<group>"; };
 		B67ED6FA28F91FC700C2B004 /* MaskExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskExample.swift; sourceTree = "<group>"; };
+		B67ED6FC28F959BA00C2B004 /* SoundsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsExample.swift; sourceTree = "<group>"; };
+		B67ED6FF28F95C8B00C2B004 /* Duck-quack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Duck-quack.mp3"; sourceTree = "<group>"; };
+		B67ED70028F95C8B00C2B004 /* Cow-moo-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cow-moo-sound.mp3"; sourceTree = "<group>"; };
+		B67ED70328F95F8000C2B004 /* HapticsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,9 @@
 				B67ED6EE28F2A74F00C2B004 /* RotationGestureExample.swift */,
 				B67ED6F428F7DCA500C2B004 /* ScrollViewReaderExample.swift */,
 				B67ED6F628F7E36500C2B004 /* GeometryReaderExample.swift */,
+				B67ED6FC28F959BA00C2B004 /* SoundsExample.swift */,
+				B67ED70328F95F8000C2B004 /* HapticsExample.swift */,
+				B67ED6FE28F95C2800C2B004 /* Sounds */,
 				B67ED6E028F29D0600C2B004 /* Assets.xcassets */,
 				B67ED6E228F29D0600C2B004 /* Preview Content */,
 			);
@@ -92,6 +103,15 @@
 				B67ED6E328F29D0600C2B004 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B67ED6FE28F95C2800C2B004 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				B67ED70028F95C8B00C2B004 /* Cow-moo-sound.mp3 */,
+				B67ED6FF28F95C8B00C2B004 /* Duck-quack.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +172,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B67ED70128F95C8B00C2B004 /* Duck-quack.mp3 in Resources */,
 				B67ED6E428F29D0600C2B004 /* Preview Assets.xcassets in Resources */,
+				B67ED70228F95C8B00C2B004 /* Cow-moo-sound.mp3 in Resources */,
 				B67ED6E128F29D0600C2B004 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,9 +192,11 @@
 				B67ED6EB28F29D6C00C2B004 /* LongPressGestureExample.swift in Sources */,
 				B67ED6EF28F2A74F00C2B004 /* RotationGestureExample.swift in Sources */,
 				B67ED6FB28F91FC700C2B004 /* MaskExample.swift in Sources */,
+				B67ED6FD28F959BA00C2B004 /* SoundsExample.swift in Sources */,
 				B67ED6F728F7E36500C2B004 /* GeometryReaderExample.swift in Sources */,
 				B67ED6DF28F29D0400C2B004 /* ContentView.swift in Sources */,
 				B67ED6F128F2A97000C2B004 /* DragGestureExample.swift in Sources */,
+				B67ED70428F95F8000C2B004 /* HapticsExample.swift in Sources */,
 				B67ED6F928F7FB5A00C2B004 /* MultipleSheetsExample.swift in Sources */,
 				B67ED6DD28F29D0400C2B004 /* CheatSheetIntermediateApp.swift in Sources */,
 			);
@@ -303,6 +327,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CheatSheetIntermediate/Preview Content\"";
+				DEVELOPMENT_TEAM = 3D5H55Z4KP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -331,6 +356,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CheatSheetIntermediate/Preview Content\"";
+				DEVELOPMENT_TEAM = 3D5H55Z4KP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
