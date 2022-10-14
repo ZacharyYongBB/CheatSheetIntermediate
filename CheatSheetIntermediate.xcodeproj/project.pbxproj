@@ -26,6 +26,7 @@
 		B67ED70428F95F8000C2B004 /* HapticsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67ED70328F95F8000C2B004 /* HapticsExample.swift */; };
 		B67ED70628F965E400C2B004 /* LocalNotificationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67ED70528F965E400C2B004 /* LocalNotificationExample.swift */; };
 		B67ED70828F9934100C2B004 /* HashableExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67ED70728F9934100C2B004 /* HashableExample.swift */; };
+		B67ED70A28F9967200C2B004 /* ArraysExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67ED70928F9967200C2B004 /* ArraysExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		B67ED70328F95F8000C2B004 /* HapticsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsExample.swift; sourceTree = "<group>"; };
 		B67ED70528F965E400C2B004 /* LocalNotificationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationExample.swift; sourceTree = "<group>"; };
 		B67ED70728F9934100C2B004 /* HashableExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableExample.swift; sourceTree = "<group>"; };
+		B67ED70928F9967200C2B004 /* ArraysExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraysExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				B67ED6DC28F29D0400C2B004 /* CheatSheetIntermediateApp.swift */,
 				B67ED6DE28F29D0400C2B004 /* ContentView.swift */,
 				B67ED6EA28F29D6C00C2B004 /* LongPressGestureExample.swift */,
+				B67ED70928F9967200C2B004 /* ArraysExample.swift */,
 				B67ED70528F965E400C2B004 /* LocalNotificationExample.swift */,
 				B67ED6F028F2A97000C2B004 /* DragGestureExample.swift */,
 				B67ED6EC28F2A30100C2B004 /* MagnificationGestureExample.swift */,
@@ -204,6 +207,7 @@
 				B67ED6DF28F29D0400C2B004 /* ContentView.swift in Sources */,
 				B67ED6F128F2A97000C2B004 /* DragGestureExample.swift in Sources */,
 				B67ED70428F95F8000C2B004 /* HapticsExample.swift in Sources */,
+				B67ED70A28F9967200C2B004 /* ArraysExample.swift in Sources */,
 				B67ED70628F965E400C2B004 /* LocalNotificationExample.swift in Sources */,
 				B67ED6F928F7FB5A00C2B004 /* MultipleSheetsExample.swift in Sources */,
 				B67ED6DD28F29D0400C2B004 /* CheatSheetIntermediateApp.swift in Sources */,
