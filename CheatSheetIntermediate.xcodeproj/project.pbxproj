@@ -19,6 +19,7 @@
 		B67ED6F528F7DCA500C2B004 /* ScrollViewReaderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67ED6F428F7DCA500C2B004 /* ScrollViewReaderExample.swift */; };
 		B67ED6F728F7E36500C2B004 /* GeometryReaderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67ED6F628F7E36500C2B004 /* GeometryReaderExample.swift */; };
 		B67ED6F928F7FB5A00C2B004 /* MultipleSheetsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67ED6F828F7FB5A00C2B004 /* MultipleSheetsExample.swift */; };
+		B67ED6FB28F91FC700C2B004 /* MaskExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67ED6FA28F91FC700C2B004 /* MaskExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		B67ED6F428F7DCA500C2B004 /* ScrollViewReaderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderExample.swift; sourceTree = "<group>"; };
 		B67ED6F628F7E36500C2B004 /* GeometryReaderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderExample.swift; sourceTree = "<group>"; };
 		B67ED6F828F7FB5A00C2B004 /* MultipleSheetsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsExample.swift; sourceTree = "<group>"; };
+		B67ED6FA28F91FC700C2B004 /* MaskExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				B67ED6F028F2A97000C2B004 /* DragGestureExample.swift */,
 				B67ED6EC28F2A30100C2B004 /* MagnificationGestureExample.swift */,
 				B67ED6F828F7FB5A00C2B004 /* MultipleSheetsExample.swift */,
+				B67ED6FA28F91FC700C2B004 /* MaskExample.swift */,
 				B67ED6F228F2AE8C00C2B004 /* DragGesture2Example.swift */,
 				B67ED6EE28F2A74F00C2B004 /* RotationGestureExample.swift */,
 				B67ED6F428F7DCA500C2B004 /* ScrollViewReaderExample.swift */,
@@ -166,6 +169,7 @@
 				B67ED6F328F2AE8C00C2B004 /* DragGesture2Example.swift in Sources */,
 				B67ED6EB28F29D6C00C2B004 /* LongPressGestureExample.swift in Sources */,
 				B67ED6EF28F2A74F00C2B004 /* RotationGestureExample.swift in Sources */,
+				B67ED6FB28F91FC700C2B004 /* MaskExample.swift in Sources */,
 				B67ED6F728F7E36500C2B004 /* GeometryReaderExample.swift in Sources */,
 				B67ED6DF28F29D0400C2B004 /* ContentView.swift in Sources */,
 				B67ED6F128F2A97000C2B004 /* DragGestureExample.swift in Sources */,
