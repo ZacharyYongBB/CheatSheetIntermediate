@@ -188,7 +188,7 @@ struct CoreDataRelationshipsExample: View {
                             .frame(maxWidth: .infinity)
                             .background(Color.blue)
                             .cornerRadius(10)
-                            .padding(10)
+                            .padding()
                     }
                     
                     ScrollView(.horizontal, showsIndicators: true) {
