@@ -11,7 +11,7 @@ import SwiftUI
 struct CheatSheetIntermediateApp: App {
     var body: some Scene {
         WindowGroup {
-            LocalNotificationExample()
+            CoreDataExample()
         }
     }
 }
