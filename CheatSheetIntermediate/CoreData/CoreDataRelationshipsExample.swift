@@ -220,7 +220,7 @@ struct CoreDataRelationshipsExample: View {
                             
                         }
                     }
-                    .padding()
+                    .padding(10)
                     
                 }
             }
