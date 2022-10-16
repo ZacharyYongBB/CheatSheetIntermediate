@@ -29,6 +29,8 @@
 		B67ED70A28F9967200C2B004 /* ArraysExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67ED70928F9967200C2B004 /* ArraysExample.swift */; };
 		B69DE72F28FBEEF40001588A /* CoreDataExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69DE72E28FBEEF40001588A /* CoreDataExample.swift */; };
 		B69DE73228FBF0380001588A /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B69DE73028FBF0380001588A /* FruitsContainer.xcdatamodeld */; };
+		B6EF7DEC28FC0756009AD28F /* CoreDataRelationshipsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EF7DEB28FC0756009AD28F /* CoreDataRelationshipsExample.swift */; };
+		B6EF7DEF28FC08B9009AD28F /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6EF7DED28FC08B9009AD28F /* CoreDataContainer.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +57,8 @@
 		B67ED70928F9967200C2B004 /* ArraysExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraysExample.swift; sourceTree = "<group>"; };
 		B69DE72E28FBEEF40001588A /* CoreDataExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataExample.swift; sourceTree = "<group>"; };
 		B69DE73128FBF0380001588A /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
+		B6EF7DEB28FC0756009AD28F /* CoreDataRelationshipsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsExample.swift; sourceTree = "<group>"; };
+		B6EF7DEE28FC08B9009AD28F /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				B69DE72E28FBEEF40001588A /* CoreDataExample.swift */,
+				B6EF7DEB28FC0756009AD28F /* CoreDataRelationshipsExample.swift */,
+				B6EF7DED28FC08B9009AD28F /* CoreDataContainer.xcdatamodeld */,
 				B69DE73028FBF0380001588A /* FruitsContainer.xcdatamodeld */,
 			);
 			path = CoreData;
@@ -217,6 +223,7 @@
 				B67ED6EB28F29D6C00C2B004 /* LongPressGestureExample.swift in Sources */,
 				B67ED6EF28F2A74F00C2B004 /* RotationGestureExample.swift in Sources */,
 				B69DE72F28FBEEF40001588A /* CoreDataExample.swift in Sources */,
+				B6EF7DEF28FC08B9009AD28F /* CoreDataContainer.xcdatamodeld in Sources */,
 				B67ED6FB28F91FC700C2B004 /* MaskExample.swift in Sources */,
 				B67ED6FD28F959BA00C2B004 /* SoundsExample.swift in Sources */,
 				B67ED6F728F7E36500C2B004 /* GeometryReaderExample.swift in Sources */,
@@ -224,6 +231,7 @@
 				B67ED6F128F2A97000C2B004 /* DragGestureExample.swift in Sources */,
 				B67ED70428F95F8000C2B004 /* HapticsExample.swift in Sources */,
 				B67ED70A28F9967200C2B004 /* ArraysExample.swift in Sources */,
+				B6EF7DEC28FC0756009AD28F /* CoreDataRelationshipsExample.swift in Sources */,
 				B67ED70628F965E400C2B004 /* LocalNotificationExample.swift in Sources */,
 				B67ED6F928F7FB5A00C2B004 /* MultipleSheetsExample.swift in Sources */,
 				B67ED6DD28F29D0400C2B004 /* CheatSheetIntermediateApp.swift in Sources */,
@@ -436,6 +444,16 @@
 			);
 			currentVersion = B69DE73128FBF0380001588A /* FruitsContainer.xcdatamodel */;
 			path = FruitsContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		B6EF7DED28FC08B9009AD28F /* CoreDataContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B6EF7DEE28FC08B9009AD28F /* CoreDataContainer.xcdatamodel */,
+			);
+			currentVersion = B6EF7DEE28FC08B9009AD28F /* CoreDataContainer.xcdatamodel */;
+			path = CoreDataContainer.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
